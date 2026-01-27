@@ -1,8 +1,11 @@
 {
-    "folders": [
-        {
-            "path": ".AL-Go"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "path": "Export Tenant Media"
+    },
+    {
+      "path": ".AL-Go"
+    }
+  ],
+  "settings": {}
 }
