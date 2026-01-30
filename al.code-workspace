@@ -10,5 +10,28 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Publish: Microsoft cloud sandbox",
+          "type": "al",
+          "request": "launch",
+          "environmentType": "Sandbox",
+          "environmentName": "Sandbox",
+          "startupObjectId": 22,
+          "breakOnError": "All",
+          "breakOnRecordWrite": "None",
+          "launchBrowser": true,
+          "enableSqlInformationDebugger": true,
+          "enableLongRunningSqlStatements": true,
+          "longRunningSqlStatementsThreshold": 500,
+          "numberOfSqlStatements": 10,
+          "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9"
+        }
+      ],
+      "compounds": []
+    }
+  }
 }

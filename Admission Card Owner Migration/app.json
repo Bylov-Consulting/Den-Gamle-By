@@ -2,7 +2,7 @@
   "id": "3371032a-06c5-43e5-a6d7-754d2c7c1335",
   "name": "Admission Card Owner Migration",
   "publisher": "Bylov Consulting",
-  "version": "1.0.0.0",
+  "version": "1.1.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -10,7 +10,20 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+"id": "120dece1-a132-4bbc-8d3c-0638fe761397",
+"name": "JCD Retail - Admission",
+"publisher": "JCD",
+"version": "1.2.20251116.5"
+},
+{
+  "id": "ba2e041c-d3c5-4de7-b449-473fb120d68c",
+  "name": "Export Tenant Media",
+  "publisher": "Bylov Consulting",
+  "version": "1.0.0.0"
+}
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
@@ -25,7 +38,8 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.2"
 }
