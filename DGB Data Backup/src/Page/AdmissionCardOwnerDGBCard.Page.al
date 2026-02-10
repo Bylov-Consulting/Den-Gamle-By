@@ -4,6 +4,7 @@ page 90002 "Admission Card Owner DGB Card"
     PageType = Card;
     SourceTable = "Admission Card Owner DGB";
     ApplicationArea = All;
+    UsageCategory = None;
 
     layout
     {

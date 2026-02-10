@@ -1,18 +1,20 @@
 codeunit 90011 "Admission Card Owner Migration"
 {
+    /// <summary>
+    /// Copies all admission card owners to the DGB table.
+    /// </summary>
     procedure CopyToDGBTable()
     var
         AdmissionCardOwner: Record "Admission Card Owner";
         AdmissionCardOwnerDGB: Record "Admission Card Owner DGB";
+        PercentComplete: Decimal;
         ProgressDialog: Dialog;
+        CommitBatchSize: Integer;
         Counter: Integer;
-        TotalRecords: Integer;
-        RecordsSkipped: Integer;
         RecordsCopied: Integer;
         RecordsFailed: Integer;
-        PercentComplete: Decimal;
-        CommitBatchSize: Integer;
-        LastErrorText: Text;
+        RecordsSkipped: Integer;
+        TotalRecords: Integer;
     begin
         CommitBatchSize := 100; // Commit every 100 records
         TotalRecords := AdmissionCardOwner.Count();
@@ -21,7 +23,7 @@ codeunit 90011 "Admission Card Owner Migration"
         RecordsCopied := 0;
         RecordsFailed := 0;
 
-        ProgressDialog.Open('Copying records to DGB table...\Processed #1#### of #2####. Progress: #3##%\Copied: #4#### | Skipped: #5#### | Failed: #6####');
+        ProgressDialog.Open(CopyingRecordsTxt);
 
         if AdmissionCardOwner.FindSet() then
             repeat
@@ -36,10 +38,10 @@ codeunit 90011 "Admission Card Owner Migration"
                     // Use error handling for each record
                     if TryCopySingleRecord(AdmissionCardOwner) then
                         RecordsCopied += 1
-                    else begin
-                        RecordsFailed += 1;
+                    else
                         // Log error but continue processing
-                    end;
+                        RecordsFailed += 1;
+
                 end else
                     RecordsSkipped += 1;
 
@@ -57,7 +59,7 @@ codeunit 90011 "Admission Card Owner Migration"
         Commit();
 
         ProgressDialog.Close();
-        Message('Copy completed!\\Records copied: %1\Records skipped: %2\Records failed: %3', RecordsCopied, RecordsSkipped, RecordsFailed);
+        Message(CopyCompletedMsg, RecordsCopied, RecordsSkipped, RecordsFailed);
     end;
 
     [TryFunction]
@@ -96,6 +98,11 @@ codeunit 90011 "Admission Card Owner Migration"
         DestRecord.Modify(true);
     end;
 
+    /// <summary>
+    /// Copies a single admission card owner to the DGB table.
+    /// </summary>
+    /// <param name="CardOwnerNo">The card owner number to copy.</param>
+    /// <returns>True if the record was copied; otherwise, false.</returns>
     procedure CopySingleToDGBTable(CardOwnerNo: Code[20]): Boolean
     var
         AdmissionCardOwner: Record "Admission Card Owner";
@@ -103,13 +110,13 @@ codeunit 90011 "Admission Card Owner Migration"
     begin
         // Check if source record exists
         if not AdmissionCardOwner.Get(CardOwnerNo) then begin
-            Message('Admission Card Owner %1 not found.', CardOwnerNo);
+            Message(CardOwnerNotFoundMsg, CardOwnerNo);
             exit(false);
         end;
 
         // Check if record already exists in DGB table
         if AdmissionCardOwnerDGB.Get(CardOwnerNo) then begin
-            Message('Record %1 already exists in DGB table.', CardOwnerNo);
+            Message(RecordAlreadyExistsMsg, CardOwnerNo);
             exit(false);
         end;
 
@@ -123,7 +130,7 @@ codeunit 90011 "Admission Card Owner Migration"
         // Copy the picture by creating a new media entry
         CopyPicture(AdmissionCardOwner, AdmissionCardOwnerDGB);
 
-        Message('Record %1 successfully copied to DGB table.', CardOwnerNo);
+        Message(RecordCopiedMsg, CardOwnerNo);
         exit(true);
     end;
 
@@ -147,4 +154,11 @@ codeunit 90011 "Admission Card Owner Migration"
         DestRecord.Picture.ImportStream(PictureInStream, 'Picture_' + DestRecord."No." + '.jpg');
         DestRecord.Modify(true);
     end;
+
+    var
+        CardOwnerNotFoundMsg: Label 'Admission Card Owner %1 not found.', Comment = '%1 = Card owner number.';
+        CopyCompletedMsg: Label 'Copy completed!\\Records copied: %1\\Records skipped: %2\\Records failed: %3', Comment = '%1 = Copied, %2 = Skipped, %3 = Failed.';
+        CopyingRecordsTxt: Label 'Copying records to DGB table...\\Processed #1#### of #2####. Progress: #3##%\\Copied: #4#### | Skipped: #5#### | Failed: #6####', Comment = '#1 = Current record counter, #2 = Total records, #3 = Percent complete, #4 = Records copied, #5 = Records skipped, #6 = Records failed.';
+        RecordAlreadyExistsMsg: Label 'Record %1 already exists in DGB table.', Comment = '%1 = Card owner number.';
+        RecordCopiedMsg: Label 'Record %1 successfully copied to DGB table.', Comment = '%1 = Card owner number.';
 }

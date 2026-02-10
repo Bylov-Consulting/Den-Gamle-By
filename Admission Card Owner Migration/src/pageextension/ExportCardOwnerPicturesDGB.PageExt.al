@@ -2,7 +2,7 @@ pageextension 90012 ExportCardOwnerPicturesDGB extends "Admission Card Owners DG
 {
     actions
     {
-            addfirst(Processing)
+        addfirst(Processing)
         {
             action(CopyToDGB)
             {
@@ -12,6 +12,7 @@ pageextension 90012 ExportCardOwnerPicturesDGB extends "Admission Card Owners DG
                 PromotedIsBig = true;
                 Image = Copy;
                 ApplicationArea = All;
+                ToolTip = 'Executes the Copy to DGB Table action.';
                 trigger OnAction()
                 var
                     AdmissionCardOwnerMigration: Codeunit "Admission Card Owner Migration";

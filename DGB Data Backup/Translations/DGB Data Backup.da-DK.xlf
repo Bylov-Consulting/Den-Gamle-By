@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="DGB Data Backup">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2102222431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Admission Card Owner DGB</source>
+          <target>Adgangskort Ejer DGB</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target>Adresse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 2306852000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address 2</source>
+          <target>Adresse 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 2779915060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Anonymized</source>
+          <target>Anonymiseret</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Anonymized - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1576740555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth Date</source>
+          <target>Fødselsdato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Birth Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <target>By</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Name</source>
+          <target>Firmanavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Company Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 243748095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Person</source>
+          <target>Kontaktperson</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Contact Person - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Lande-/områdekode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>County</source>
+          <target>Amt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Kundenavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Kundenr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1541011875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-mail</source>
+          <target>E-mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field E-Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 3444679095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target>Fornavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field First Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 2981864456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name</source>
+          <target>Fulde navn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Full Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 2303302321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gender</source>
+          <target>Køn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Gender - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 749447638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified Date Time</source>
+          <target>Dato/tid for ændring</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Last Modified Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 4068742839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target>Efternavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Last Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1567377202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linked Cards UID</source>
+          <target>Tilknyttede kort UID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Linked Cards UID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 966287263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name 2</source>
+          <target>Navn 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 771586741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Newsletter Consent Date</source>
+          <target>Dato for nyhedsbrev samtykke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Newsletter Consent Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target>Nummerserie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target>Telefonnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Phone No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target>Billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2102222431 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Code</source>
+          <target>Postnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Admission Card Owner DGB - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1050956362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target>Billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Adm. Card Owner Picture DGB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1050956362 - Control 1594621544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the picture.</source>
+          <target>Angiver billedet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Adm. Card Owner Picture DGB - Control Picture - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Admission Card Owner DGB</source>
+          <target>Adgangskort Ejer DGB</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 4253802235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Information</source>
+          <target>Yderligere oplysninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Additional - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 2779915060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the record is anonymized.</source>
+          <target>Angiver, om posten er anonymiseret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Anonymized - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer number.</source>
+          <target>Angiver kundenummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 749447638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the record was last modified.</source>
+          <target>Angiver, hvornår posten sidst blev ændret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Last Modified Date Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1567377202 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the linked cards unique identifier.</source>
+          <target>Angiver de tilknyttede korts unikke identifikator.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Linked Cards UID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 771586741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the newsletter consent date.</source>
+          <target>Angiver datoen for nyhedsbrev samtykke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Newsletter Consent Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1351594800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number series.</source>
+          <target>Angiver nummerserien.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control No. Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 747418715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address &amp; Contact</source>
+          <target>Adresse &amp; Kontakt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control AddressContactGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 598655331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target>Adresse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control AddressGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the address.</source>
+          <target>Angiver adressen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 2306852000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies additional address information.</source>
+          <target>Angiver yderligere adresseoplysninger.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Address 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the city.</source>
+          <target>Angiver byen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region code.</source>
+          <target>Angiver lande-/områdekoden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 499448942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the county.</source>
+          <target>Angiver amtet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control County - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the post code.</source>
+          <target>Angiver postnummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target>Kontakt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1541011875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address.</source>
+          <target>Angiver e-mailadressen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control E-Mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the phone number.</source>
+          <target>Angiver telefonnummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Generelt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1576740555 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the birth date.</source>
+          <target>Angiver fødselsdatoen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Birth Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3997336476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company name.</source>
+          <target>Angiver firmanavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Company Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 243748095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the contact person.</source>
+          <target>Angiver kontaktpersonen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Contact Person - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer name.</source>
+          <target>Angiver kundenavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 3444679095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the first name.</source>
+          <target>Angiver fornavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control First Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 2981864456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the full name.</source>
+          <target>Angiver det fulde navn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Full Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 2303302321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the gender.</source>
+          <target>Angiver køn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Gender - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 4068742839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last name.</source>
+          <target>Angiver efternavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Last Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 966287263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an alternative name.</source>
+          <target>Angiver et alternativt navn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control Name 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the card owner number.</source>
+          <target>Angiver kortejernummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2782836123 - Control 1526740379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target>Billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owner DGB Card - Control CardOwnerPicture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Admission Card Owners DGB</source>
+          <target>Adgangskort Ejere DGB</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the city.</source>
+          <target>Angiver byen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer number.</source>
+          <target>Angiver kundenummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 1541011875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address.</source>
+          <target>Angiver e-mailadressen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control E-Mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 3444679095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the first name.</source>
+          <target>Angiver fornavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control First Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 2981864456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the full name.</source>
+          <target>Angiver det fulde navn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control Full Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 4068742839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last name.</source>
+          <target>Angiver efternavnet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control Last Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the card owner number.</source>
+          <target>Angiver kortejernummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the phone number.</source>
+          <target>Angiver telefonnummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3457183554 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the post code.</source>
+          <target>Angiver postnummeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Admission Card Owners DGB - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Enum 3235583090 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gender DGB - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3235583090 - EnumValue 895618026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Female</source>
+          <target>Kvinde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gender DGB - EnumValue Female - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3235583090 - EnumValue 2360431967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Male</source>
+          <target>Mand</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gender DGB - EnumValue Male - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

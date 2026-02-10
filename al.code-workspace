@@ -1,16 +1,36 @@
 {
   "folders": [
     {
-      "path": "Export Tenant Media"
+      "path": "DGB Data Backup"
     },
     {
       "path": "Admission Card Owner Migration"
     },
     {
       "path": ".AL-Go"
-    }
+    },
+      {
+        "path": ".github"
+      }
   ],
   "settings": {
+      // AL Language settings
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": ["${CodeCop}", "${PerTenantExtensionCop}", "${UICop}"],
+  
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "al": true
+  },
+  
+  // Editor settings for better AI integration
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
     "launch": {
       "version": "0.2.0",
       "configurations": [
@@ -32,6 +52,8 @@
         }
       ],
       "compounds": []
-    }
+    },
+    "bcCodeIntelligence.layers.project.enabled": true,
+    "bcCodeIntelligence.layers.project.path": "./bc-code-intel-overrides"
   }
 }
