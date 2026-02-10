@@ -19,3 +19,4 @@ rad.json
 .snapshots/
 cache_*
 ~$*
+!Admission Card Owner Migration/Dependencies/*.app
