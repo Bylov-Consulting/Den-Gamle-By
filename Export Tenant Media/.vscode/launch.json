@@ -1,5 +1,16 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "sessionId": 76921,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9"
+        }
     ]
 }

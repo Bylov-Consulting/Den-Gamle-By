@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
-  "country": "us",
+  "country": "dk",
+  "installApps": [
+    "Admission Card Owner Migration/Dependencies/JCD_JCD Retail - Admission_1.2.20251124.2.app"
+  ],
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": []

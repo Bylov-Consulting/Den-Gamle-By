@@ -8,9 +8,29 @@
     },
     {
       "path": ".AL-Go"
-    }
+    },
+      {
+        "path": ".github"
+      }
   ],
   "settings": {
+      // AL Language settings
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": ["${CodeCop}", "${PerTenantExtensionCop}", "${UICop}"],
+  
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "al": true
+  },
+  
+  // Editor settings for better AI integration
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
     "launch": {
       "version": "0.2.0",
       "configurations": [
@@ -28,10 +48,13 @@
           "enableLongRunningSqlStatements": true,
           "longRunningSqlStatementsThreshold": 500,
           "numberOfSqlStatements": 10,
-          "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9"
+          "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9",
+          "schemaUpdateMode": "ForceSync"
         }
       ],
       "compounds": []
-    }
+    },
+    "bcCodeIntelligence.layers.project.enabled": true,
+    "bcCodeIntelligence.layers.project.path": "./bc-code-intel-overrides"
   }
 }

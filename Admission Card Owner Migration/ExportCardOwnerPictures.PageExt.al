@@ -21,12 +21,12 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
                     FileName: Text;
                     ZipFileName: Text;
                     DataCompression: Codeunit "Data Compression";
+                    ExportMgt: Codeunit "Media Export Mgt.";
                     AdmissionCardOwners: Record "Admission Card Owner";
-                    AdmissionCardOwnersCounter: record "Admission Card Owner";
+                    AdmissionCardOwnersCounter: Record "Admission Card Owner";
                     PictureInStream: InStream;
                     PictureOutStream: OutStream;
                     ProgressDialog: Dialog;
-                    Counter: Integer;
                     TotalRecords: Integer;
                     PicturesProcessed: Integer;
                     PercentComplete: Decimal;
@@ -38,15 +38,21 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
                     EndTime: DateTime;
                     Duration: Duration;
                     DurationMsg: Text;
+                    BatchSize: Integer;
                 begin
                     StartTime := CurrentDateTime;
+                    BatchSize := ExportMgt.GetBatchSize();
                     DataCompression.CreateZipArchive();
                     ZipFileName := 'AdmissionCardOwnerPictures - ' + Format(CurrentDateTime, 0, '<Year4><Month,2><Day,2>_<Hours24,2><Minutes,2><Seconds,2>') + '.zip';
 
                     // Count records with pictures
                     TotalOwners := AdmissionCardOwnersCounter.Count();
+                    if TotalOwners = 0 then begin
+                        Message(NoPicturesMsg);
+                        exit;
+                    end;
                     CountingCounter := 0;
-                    ProgressDialog.Open('Counting admission card owners with pictures...\Checked #1#### of #2####. Progress: #3##%');
+                    ProgressDialog.Open(CountingPicturesTxt);
                     TotalRecords := 0;
                     if AdmissionCardOwnersCounter.FindSet() then
                         repeat
@@ -61,22 +67,24 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
                         until AdmissionCardOwnersCounter.Next() = 0;
                     ProgressDialog.Close();
 
-                    Counter := 0;
+                    if TotalRecords = 0 then begin
+                        Message(NoPicturesMsg);
+                        exit;
+                    end;
+
                     PicturesProcessed := 0;
 
-                    ProgressDialog.Open('Exporting pictures...\Processed #1#### of #2####. Progress: #3##%');
+                    ProgressDialog.Open(ExportingPicturesTxt);
 
                     if AdmissionCardOwners.FindSet() then
                         repeat
-                            Counter += 1;
-                            PercentComplete := Round(Counter / TotalRecords * 100, 1);
-
-                            ProgressDialog.Update(1, Counter);
-                            ProgressDialog.Update(2, TotalRecords);
-                            ProgressDialog.Update(3, PercentComplete);
-
                             if AdmissionCardOwners.Picture.HasValue then begin
                                 PicturesProcessed += 1;
+                                PercentComplete := Round(PicturesProcessed / TotalRecords * 100, 1);
+
+                                ProgressDialog.Update(1, PicturesProcessed);
+                                ProgressDialog.Update(2, TotalRecords);
+                                ProgressDialog.Update(3, PercentComplete);
 
                                 // Export picture to a TempBlob
                                 Clear(PictureTempBlob);
@@ -88,12 +96,11 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
                                 FileName := AdmissionCardOwners."No." + '.jpg';
                                 DataCompression.AddEntry(PictureInStream, FileName);
 
-                                // Check if 100 pictures have been processed
-                                if PicturesProcessed = 1000 then begin
+                                if (PicturesProcessed mod BatchSize) = 0 then begin
                                     ProgressDialog.Close();
-                                    ExitExport := Confirm('100 pictures have been processed.\Do you want to download the current file and exit?', true);
+                                    ExitExport := Confirm(StrSubstNo(BatchContinueQst, BatchSize), true);
                                     if not ExitExport then
-                                        ProgressDialog.Open('Exporting pictures...\Processed #1#### of #2####. Progress: #3##%');
+                                        ProgressDialog.Open(ExportingPicturesTxt);
                                 end;
 
                             end;
@@ -112,7 +119,7 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
                     // Calculate and display duration
                     EndTime := CurrentDateTime;
                     Duration := EndTime - StartTime;
-                    DurationMsg := StrSubstNo('Export completed!\\Pictures exported: %1\Duration: %2', PicturesProcessed, Format(Duration));
+                    DurationMsg := StrSubstNo(ExportCompletedMsg, PicturesProcessed, Format(Duration));
                     Message(DurationMsg);
                 end;
             }
@@ -151,4 +158,11 @@ pageextension 90011 ExportCardOwnerPictures extends "Admission Card Owners"
             }
         }
     }
+
+    var
+        CountingPicturesTxt: Label 'Counting admission card owners with pictures...\\Checked #1#### of #2####. Progress: #3##%';
+        ExportingPicturesTxt: Label 'Exporting pictures...\\Processed #1#### of #2####. Progress: #3##%';
+        NoPicturesMsg: Label 'No pictures found to export.';
+        BatchContinueQst: Label '%1 pictures have been processed. Do you want to continue exporting more pictures?', Comment = '%1 = Batch size.';
+        ExportCompletedMsg: Label 'Export completed!\\Pictures exported: %1\\Duration: %2', Comment = '%1 = Picture count, %2 = Duration.';
 }
