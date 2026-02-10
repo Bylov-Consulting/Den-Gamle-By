@@ -211,15 +211,6 @@ Vælg et par tilfældige poster og verificer:
    - Verificer billeder matcher kilden
    - Billeder bør være synlige, selvom du sletter fra kilde (uafhængige kopier)
 
-**Trin 4: Test eksportfunktionalitet**
-
-Hvis du bruger DGB Data Backup til at eksportere billeder:
-
-1. Åbn "Admission Card Owners DGB"
-2. Opsæt Media Export Configuration (se DGB Data Backup Brugervejledning)
-3. Kør en testeksport på et par poster
-4. Verificer billeder eksporteres korrekt
-
 ---
 
 ## Almindelige scenarier

@@ -21,10 +21,9 @@ This extension facilitates the transition from the original JCD Retail - Admissi
 ┌─────────────────────────────────────────────────────────┐
 │                   User Interfaces                        │
 ├─────────────────────────────────────────────────────────┤
-│  • Admission Card Owners DGB (Extended)                 │
-│    - "Copy to DGB Table" action (bulk migration)        │
 │  • Admission Card Owners (Extended)                     │
-│    - "Export Images" action (with Media Export Status)  │
+│    - "Copy to DGB Table" action (bulk migration)        │
+│    - "Copy Selected to DGB Table" action                │
 └─────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────┐
@@ -378,23 +377,15 @@ Running migration multiple times is safe:
 
 ## Page Extensions
 
-### 1. ExportCardOwnerPicturesDGB (90012)
-
-**Extends**: Admission Card Owners DGB (list page)
-
-**Adds**:
-- Action: "Copy to DGB Table"
-- Location: Processing action area (promoted)
-- Function: Triggers bulk migration
-
-### 2. ExportCardOwnerPictures (90013)
+### ExportCardOwnerPictures (90011)
 
 **Extends**: Admission Card Owners (source list page)
 
 **Adds**:
-- Action: "Export Images"
+- Action: "Copy to DGB Table"
+- Action: "Copy Selected to DGB Table"
 - Location: Processing action area (promoted)
-- Function: Opens Media Export Status (if DGB Data Backup extension is installed)
+- Function: Triggers bulk or single-record migration
 
 ## Dependencies
 

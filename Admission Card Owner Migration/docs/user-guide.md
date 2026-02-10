@@ -211,15 +211,6 @@ Pick a few random records and verify:
    - Verify pictures match the source
    - Pictures should be visible even if you delete from source (independent copies)
 
-**Step 4: Test Export Functionality**
-
-If using DGB Data Backup to export pictures:
-
-1. Open "Admission Card Owners DGB"
-2. Set up Media Export Configuration (see DGB Data Backup User Guide)
-3. Run a test export on a few records
-4. Verify images export correctly
-
 ---
 
 ## Common Scenarios

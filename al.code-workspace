@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "Export Tenant Media"
+      "path": "DGB Data Backup"
     },
     {
       "path": "Admission Card Owner Migration"
@@ -48,8 +48,7 @@
           "enableLongRunningSqlStatements": true,
           "longRunningSqlStatementsThreshold": 500,
           "numberOfSqlStatements": 10,
-          "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9",
-          "schemaUpdateMode": "ForceSync"
+          "tenant": "0b1cab33-a7b5-4238-b9e4-c709270ae8d9"
         }
       ],
       "compounds": []

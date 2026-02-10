@@ -21,11 +21,9 @@ Denne udvidelse letter overgangen fra det oprindelige JCD Retail - Admission-sys
 ┌─────────────────────────────────────────────────────────┐
 │                   Brugergrænseflader                     │
 ├─────────────────────────────────────────────────────────┤
-│  • Admission Card Owners DGB (Udvidet)                  │
-│    - "Kopier til DGB-tabel" handling (bulk-migrering)   │
 │  • Admission Card Owners (Udvidet)                      │
-│    - "Eksporter billeder" handling (med Media Export    │
-│      Status)                                            │
+│    - "Kopier til DGB-tabel" handling (bulk-migrering)   │
+│    - "Kopier markeret til DGB-tabel" handling           │
 └─────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────┐
@@ -379,23 +377,15 @@ Kørsel af migrering flere gange er sikkert:
 
 ## Sideudvidelser
 
-### 1. ExportCardOwnerPicturesDGB (90012)
-
-**Udvider**: Admission Card Owners DGB (listeside)
-
-**Tilføjer**:
-- Handling: "Kopier til DGB-tabel"
-- Placering: Processing-handlingsområde (promoveret)
-- Funktion: Udløser bulk-migrering
-
-### 2. ExportCardOwnerPictures (90013)
+### ExportCardOwnerPictures (90011)
 
 **Udvider**: Admission Card Owners (kilde-listeside)
 
 **Tilføjer**:
-- Handling: "Eksporter billeder"
+- Handling: "Kopier til DGB-tabel"
+- Handling: "Kopier markeret til DGB-tabel"
 - Placering: Processing-handlingsområde (promoveret)
-- Funktion: Åbner Media Export Status (hvis DGB Data Backup-udvidelse er installeret)
+- Funktion: Udløser bulk- eller enkeltpost-migrering
 
 ## Afhængigheder
 
