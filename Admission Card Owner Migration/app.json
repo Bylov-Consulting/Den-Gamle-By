@@ -12,6 +12,18 @@
   "logo": "",
   "dependencies": [
     {
+      "id": "14bffa54-5240-427e-adc2-2f2af2942580",
+      "name": "JCD Retail",
+      "publisher": "JCD",
+      "version": "2.1.0.0"
+    },
+    {
+      "id": "b468d1c1-31c0-4da3-a2bb-3987d4dcc710",
+      "name": "JCD Retail - Voucher",
+      "publisher": "JCD",
+      "version": "1.0.0.0"
+    },
+    {
       "id": "120dece1-a132-4bbc-8d3c-0638fe761397",
       "name": "JCD Retail - Admission",
       "publisher": "JCD",
