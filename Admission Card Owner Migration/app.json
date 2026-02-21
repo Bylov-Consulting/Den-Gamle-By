@@ -12,16 +12,28 @@
   "logo": "",
   "dependencies": [
     {
+      "id": "14bffa54-5240-427e-adc2-2f2af2942580",
+      "name": "JCD Retail",
+      "publisher": "JCD",
+      "version": "2.1.0.0"
+    },
+    {
+      "id": "b468d1c1-31c0-4da3-a2bb-3987d4dcc710",
+      "name": "JCD Retail - Voucher",
+      "publisher": "JCD",
+      "version": "1.0.0.0"
+    },
+    {
       "id": "120dece1-a132-4bbc-8d3c-0638fe761397",
       "name": "JCD Retail - Admission",
       "publisher": "JCD",
-      "version": "1.2.20251124.2"
+      "version": "1.2.0.0"
     },
     {
       "id": "ba2e041c-d3c5-4de7-b449-473fb120d68c",
       "name": "DGB Data Backup",
       "publisher": "Bylov Consulting",
-      "version": "1.1.0.0"
+      "version": "1.3.0.0"
     }
   ],
   "screenshots": [],
